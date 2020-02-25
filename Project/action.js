@@ -136,8 +136,6 @@ $(() => {
             if(val[i] == '('){
                 val = val.substring(i+1)
             }
-
-            //  pie , ans
             
         }
         output.value = ans;
