@@ -1,0 +1,35 @@
+
+.hd{
+    font-size: 50px;
+}
+
+.main{
+    margin: 100px;
+}
+
+.tb{
+    width: 70%;
+    text-align: center;
+    border-collapse: separate;
+}
+
+.rounded{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div.border{
+    margin: 50px;
+}
+
+#rad{
+    position: relative;
+    float: left;
+    width: 30%;   
+}
+
+#Deg{
+    position: relative;
+    float: right;
+    width: 30%;
+}

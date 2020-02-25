@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="action.js"></script>
+
+</head>
+
+<body>
+
+    <div class="hd">
+        <center>Calculator</center>
+    </div>
+    <div class="border">
+        <table cellpadding="5" cellspacing="10" class="tb" align="center">
+            <tr class="inp">
+                <td colspan="3">Input &nbsp; &nbsp;<input type="text" placeholder="0" class="int"></td>
+                <td colspan="4">Output &nbsp; &nbsp;<input type="text" placeholder="0" class="otpt"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><button class="rounded btn btn-secondary radeg">
+                        <div id="rad">Rad</div>|<div id="Deg">Deg</div>
+                    </button></td>
+                <td><button class="rounded btn btn-secondary fact">x!</button></td>
+                <td><button class="rounded btn btn-secondary">(</button></td>
+                <td><button class="rounded btn btn-secondary">)</button></td>
+                <td><button class="rounded btn btn-secondary">%</button></td>
+                <td><button class="rounded btn btn-secondary AC">AC</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="rounded btn btn-secondary inv">Inv</button></td>
+                <td><button class="rounded btn btn-secondary">Sin</button></td>
+                <td><button class="rounded btn btn-secondary">ln</button></td>
+                <td><button class="rounded btn btn-light n1">7</button></td>
+                <td><button class="rounded btn btn-light n1">8</button></td>
+                <td><button class="rounded btn btn-light n1">9</button></td>
+                <td><button class="rounded btn btn-secondary">/</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="rounded btn btn-secondary">π</button></td>
+                <td><button class="rounded btn btn-secondary Cos">Cos</button></td>
+                <td><button class="rounded btn btn-secondary">log</button></td>
+                <td><button class="rounded btn btn-light n2">4</button></td>
+                <td><button class="rounded btn btn-light n2">5</button></td>
+                <td><button class="rounded btn btn-light n2">6</button></td>
+                <td><button class="rounded btn btn-secondary">*</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="rounded btn btn-secondary">e</button></td>
+                <td><button class="rounded btn btn-secondary">tan</button></td>
+                <td><button class="rounded btn btn-secondary root">√</button></td>
+                <td><button class="rounded btn btn-light n3">1</button></td>
+                <td><button class="rounded btn btn-light n3">2</button></td>
+                <td><button class="rounded btn btn-light n3">3</button></td>
+                <td><button class="rounded btn btn-secondary">-</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="rounded btn btn-secondary ans">Ans</button></td>
+                <td><button class="rounded btn btn-secondary exp">EXP</button></td>
+                <td><button class="rounded btn btn-secondary raise">x^y</button></td>
+                <td><button class="rounded btn btn-secondary ">0</button></td>
+                <td><button class="rounded btn btn-secondary">.</button></td>
+                <td><button class="rounded btn btn-primary equal">=</button></td>
+                <td><button class="rounded btn btn-secondary">+</button></td>
+            </tr>
+    </div>
+    </table>
+</body>
+
+</html>
